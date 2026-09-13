@@ -1,0 +1,13 @@
+{
+  "name": "malicut-android",
+  "version": "8.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx cap build android --androidreleasetype AAB"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  }
+}
